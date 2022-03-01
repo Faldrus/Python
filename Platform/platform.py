@@ -32,20 +32,20 @@ max_levels=7
 score=0
 
 #carico immagini
-sun_img=pygame.image.load('Platform/img/sun.png')
-bg_img=pygame.image.load('Platform/img/sky.png')
-restart_img=pygame.image.load('Platform/img/restart_btn.png')
-start_img=pygame.image.load('Platform/img/start_btn.png')
-exit_img=pygame.image.load('Platform/img/exit_btn.png')
+sun_img=pygame.image.load('img/sun.png')
+bg_img=pygame.image.load('img/sky.png')
+restart_img=pygame.image.load('img/restart_btn.png')
+start_img=pygame.image.load('img/start_btn.png')
+exit_img=pygame.image.load('img/exit_btn.png')
 
 #carico i suoni
-pygame.mixer.music.load('Platform/img/music.wav')       #canzone di background
+pygame.mixer.music.load('img/music.wav')       #canzone di background
 pygame.mixer.music.play(-1, 0.0, 5000)                  #do il delay di 5000
-coin_fx=pygame.mixer.Sound('Platform/img/coin.wav')
+coin_fx=pygame.mixer.Sound('img/coin.wav')
 coin_fx.set_volume(0.5)                                 #riduco il volume perché sarebbe troppo forte
-jump_fx=pygame.mixer.Sound('Platform/img/jump.wav')
+jump_fx=pygame.mixer.Sound('img/jump.wav')
 jump_fx.set_volume(0.5)
-game_over_fx=pygame.mixer.Sound('Platform/img/game_over.wav')
+game_over_fx=pygame.mixer.Sound('img/game_over.wav')
 game_over_fx.set_volume(0.5)
 
 #metodo per scrivere sul gioco
